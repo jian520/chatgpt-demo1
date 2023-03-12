@@ -1,11 +1,12 @@
 ---
 import Logo from './Logo.astro'
 import Themetoggle from './Themetoggle.astro'
+import logo from '../images/logo.png';
 ---
 
 <header>
   <div class="fb">
-   <img src="/public/1.png" alt="logo">
+  <img src={logo} width="40" alt="logo" />
     <Themetoggle />
   </div>
   <div class="fi mt-2">
